@@ -1,4 +1,10 @@
-{
+{    
+    "rewrites": [
+        {
+            "source": "/cf(.*)",
+            "destination": "/api/codeforces.js"
+        }
+    ],
     "headers":[
         {
             "source":"/404.html",
@@ -8,12 +14,6 @@
                     "value":""
                 }
             ]
-        }
-    ],
-    "rewrites": [
-        {
-            "source": "/cf/(.*)",
-            "destination": "/api/codeforces.js"
         }
     ]
 }
