@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axios": "^0.25.0",
+    "badge-maker": "^3.3.1"
+  }
+}

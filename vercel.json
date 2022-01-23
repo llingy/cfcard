@@ -1,0 +1,19 @@
+{
+    "headers":[
+        {
+            "source":"/404.html",
+            "headers":[
+                {
+                    "key":"HTTP/1.1 404 Not Found",
+                    "value":""
+                }
+            ]
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/cf/(.*)",
+            "destination": "/api/codeforces.js"
+        }
+    ]
+}
